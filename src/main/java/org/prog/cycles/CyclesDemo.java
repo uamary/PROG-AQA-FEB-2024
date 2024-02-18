@@ -3,7 +3,7 @@ package org.prog.cycles;
 public class CyclesDemo {
 
     public static void main(String[] args) {
-        boolean b1 = false;
+/*        boolean b1 = false;
         boolean b2 = false;
 
         if (trueFlag() || falseFlag() || b1) {
@@ -31,10 +31,52 @@ public class CyclesDemo {
         } while (k >= 0);
 
         test("CHROME");
-        test("Avant");
+        test("Avant");*/
+
+        homework(4);
+        homework(0);
+        zoo("Sharik");
+        zoo("Pirat");
     }
 
+
+
     //TODO: switch practice
+
+    private static void homework(int month) {
+        switch (month) {
+            case 12, 1, 2:
+                System.out.println("Winter");
+                break;
+            case 3, 4, 5:
+                System.out.println("Spring");
+                break;
+            case 6, 7, 8:
+                System.out.println("Summer");
+                break;
+            case 9, 10, 11:
+                System.out.println("Autumn");
+                break;
+            default:
+                System.out.println("Error");
+        }
+    }
+
+    private static void zoo(String animalName) {
+        switch (animalName) {
+            case "Kuzka", "Murchik", "Vaska":
+                System.out.println("It's a cat");
+                break;
+            case "Barsik", "Mukhtar", "Sharik":
+                System.out.println("It's a dog");
+                break;
+            case "Kesha", "Gosha":
+                System.out.println("It's a parrot");
+                break;
+            default:
+                System.out.println("Error");
+        }
+    }
 
     private static void test(String s) {
         switch (s) {
