@@ -3,6 +3,7 @@ package org.prog;
 public class Phone {
     //test
     //test2
+    //test3
 
     private boolean isDisplayTurnedOn;
     //TODO: read about java primitive data types
