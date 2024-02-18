@@ -10,4 +10,9 @@ public class Honda implements ICar {
     public void fillCar() {
         System.out.println("Honda is using gas");
     }
+
+    @Override
+    public void maxSpeed() {
+        System.out.println("Honda's max speed is 250km/h");
+    }
 }

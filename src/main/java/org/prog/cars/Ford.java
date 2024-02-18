@@ -17,6 +17,11 @@ public class Ford implements ICar {
     }
 
     @Override
+    public void maxSpeed(){
+        System.out.println("Ford's max speed is 200km/h");
+    }
+
+    @Override
     public boolean equals(Object obj) {
         if (obj instanceof Ford) {
             Ford otherCar = (Ford) obj;

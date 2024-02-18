@@ -11,6 +11,11 @@ public class Tesla implements ICar {
         System.out.println("Tesla is charging...");
     }
 
+    @Override
+    public void maxSpeed() {
+        System.out.println("Tesla's mac speed is 300km/h");
+    }
+
     public void autoPilot() {
         System.out.println("Tesla is driving with autopilot");
     }
