@@ -1,6 +1,7 @@
 package org.prog;
 
 public class Phone {
+    //test
 
     private boolean isDisplayTurnedOn;
     //TODO: read about java primitive data types
