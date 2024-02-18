@@ -27,7 +27,7 @@ public class Main {
 //        phoneOne.volumeUp();
 //        phoneOne.volumeUp();
 
-        Samsung samsung = new Samsung();
+/*        Samsung samsung = new Samsung();
         samsung.pressPowerButton();
         samsung.volumeUp();
         samsung.volumeUp();
@@ -39,6 +39,16 @@ public class Main {
         fold.pressPowerButton();
         fold.volumeUp();;
         fold.scanFingerPrints();
-        fold.foldThePhone();
+        fold.foldThePhone();*/
+
+        Huawei huawei = new Huawei();
+        huawei.pressPowerButton();
+        huawei.pressSOSButton();
+        huawei.pressLightButton();
+        huawei.volumeUp();
+        huawei.volumeUp();
+        huawei.volumeUp();
+        huawei.volumeDown();
+        huawei.pressSOSButton();
     }
 }
