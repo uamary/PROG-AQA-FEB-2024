@@ -41,7 +41,7 @@ public class HomeWork {
         System.out.println(owners);
 }
 
-/*        hw.put("John", list.add(new Car(CarColor.WHITE)));
+/**        hw.put("John", list.add(new Car(CarColor.WHITE)));
 
 
         Map<String, List<Car>> ownedCars = new HashMap<>();
