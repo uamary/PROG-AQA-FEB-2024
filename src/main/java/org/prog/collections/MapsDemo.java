@@ -30,7 +30,7 @@ public class MapsDemo {
 //        System.out.println(stringMap.getOrDefault("key1", "defaultValue"));
 //        System.out.println(stringMap.getOrDefault("key3", "defaultValue"));
 
-        Car redCar = new Car();
+/*        Car redCar = new Car();
         Car blueCar = new Car();
         redCar.color = "red";
         blueCar.color = "blue";
@@ -46,7 +46,7 @@ public class MapsDemo {
         List<Car> joesCars = ownedCars.get("Joe");
         joesCars.add(redCar);
 
-        ownedCars.get("Joe").add(new Car());
+        ownedCars.get("Joe").add(new Car());*/
 
     }
 }

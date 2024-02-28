@@ -5,5 +5,9 @@ package org.prog.collections;
  */
 public class Car {
 
-    public String color;
+    public CarColor carColor;
+
+    public Car(CarColor carColor) {
+        this.carColor = carColor;
+    }
 }
